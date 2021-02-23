@@ -1,0 +1,115 @@
+html {
+  font-size: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+h4 {
+  text-align: center;
+}
+.container-css {
+  overflow: hidden;
+  width: 1200px;
+}
+
+.container-css .wrapper-css {
+  position: relative;
+  width: 1000px;
+}
+
+.container-css .wrapper-css > div {
+  display: inline-block;
+  padding: 3px;
+}
+
+.container-css .wrapper-css > div > div {
+  width: 200px;
+  height: 420px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .container-css .wrapper-css > div > div {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container-css .wrapper-css > div > div {
+    height: 320px;
+  }
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-left: 1rem;
+}
+
+.priceText {
+  font-weight: 700;
+}
+
+.basePrice {
+  font-size: 0.8rem;
+  margin-top: 0.6rem;
+  color: rgba(131, 130, 130, 0.521);
+}
+
+.swiper-button-prev {
+  color: grey !important;
+  font-size: 1rem !important;
+}
+
+.swiper-button-next {
+  color: grey !important;
+}
+
+.badgenew {
+  background-color: rgb(43, 42, 42);
+  color: white;
+  width: 50px;
+  height: 30px;
+  /* padding: 1rem 2rem !important; */
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  display: flex;
+  text-align: center;
+}
+.badge {
+  font-size: 1rem !important;
+  border-radius: 0 !important;
+}
+
+.discount {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  background-color: white !important;
+  width: 50px;
+  height: 30px;
+  color: red;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
